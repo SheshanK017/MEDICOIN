@@ -5,18 +5,29 @@ const Home = () => {
     <>
          <div className="relative">
         <div className="absolute top-0 right-5 mt-4 mr-4 flex gap-6">
-          <a href="/about" className="text-blueSecondary font-semibold hover:underline  font-aldrich text-xl">ABOUT</a>
-          <a href="/contact" className="text-blueSecondary font-semibold hover:underline  font-aldrich text-xl">CONTACT US</a>
+          <a href="/about" className="text-blueSecondary font-semibold hover:underline  font-aldrich text-xl hover:text-rishabh">ABOUT</a>
+          <a href="/contact" className="text-blueSecondary font-semibold hover:underline  font-aldrich text-xl hover:text-rishabh">CONTACT US</a>
         </div>
+
+        
       <div className="flex flex-col gap-10 justify-center items-center pt-[33.78378378378378vh]">
-        <div className="text-[200px] font-bold font-shes text-blueSecondary">MEDICOIN</div>
+        <div className="flex flex-row gap-5">
+        <div style={{width:"100px", height:"100px"}} className="mt-10px">
+        <img src="../../assets/images/coins.png"/>
+        </div>
+        <div className="text-[200px] font-bold font-shes text-blueSecondary hover:text-rishabh">MEDICOIN</div>
+        <div style={{width:"100px", height:"100px"}}>
+        <img src="../../assets/images/coins.png"/>
+        </div>
+        </div>
+        
        
         
     
     <div className="flex flex-row gap-10">
-    <button className="bg-none text-blueSecondary border border-blueSecondary px-4 py-2 rounded-2xl hover:bg-blue hover:text-white  hover:border-blueSecondary transition duration-300  font-bold font-aldrich text-xl"  >FUND A CAMPAIGN</button>
-    <button className="bg-none text-blueSecondary border border-blueSecondary px-4 py-2 rounded-2xl hover:bg-blue hover:text-white hover:border-blueSecondary transition duration-300  font-bold font-aldrich text-xl"  >FUND A  RESEARCH CAMPAIGN</button>
-    <button className="bg-none text-blueSecondary border border-blueSecondary px-4 py-2 rounded-2xl hover:bg-blue hover:text-white hover:border-blueSecondary transition duration-300  font-bold font-aldrich text-xl"  >CREATE A CAMPAIGN</button>
+    <button className="bg-none text-blueSecondary border border-blueSecondary px-4 py-2 rounded-2xl hover:bg-blue hover:text-rishabh  hover:border-rishabh transition duration-300  font-bold font-aldrich text-xl"  >FUND A CAMPAIGN</button>
+    <button className="bg-none text-blueSecondary border border-blueSecondary px-4 py-2 rounded-2xl hover:bg-blue hover:text-rishabh hover:border-rishabh transition duration-300  font-bold font-aldrich text-xl"  >FUND A  RESEARCH CAMPAIGN</button>
+    <button className="bg-none text-blueSecondary border border-blueSecondary px-4 py-2 rounded-2xl hover:bg-blue hover:text-rishabh hover:border-rishabh transition duration-300  font-bold font-aldrich text-xl"  >CREATE A CAMPAIGN</button>
     </div>
     
     </div>

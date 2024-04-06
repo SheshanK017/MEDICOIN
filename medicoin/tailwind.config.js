@@ -32,6 +32,7 @@ module.exports = {
         pinkScrollbar: "#9b75ff",
         eventGreen: "#00FFAB",
         eventRed: "#FF4545",
+        rishabh:"#AEE4BD"
       },
     },
   },

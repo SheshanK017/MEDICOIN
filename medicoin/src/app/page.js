@@ -1,11 +1,9 @@
 "use client";
-import Home from './Componentts/Home';
-
+import Campaign from "./Componentts/Campaign";
 const page = () => {
   return (
     <>
-    
-   <Home/>
+    <Campaign/>
     </>
    
 
