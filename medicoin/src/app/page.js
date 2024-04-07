@@ -1,13 +1,13 @@
 "use client";
-import Campaign from "./Componentts/Campaign";
+import Register from "./Componentts/Register";
 const page = () => {
   return (
     <>
-    <Campaign/>
+    <Register/>
     </>
    
 
   )
 }
 
-export default page
+export default page;
