@@ -1,0 +1,44 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IAndrStrategyType = exports.IAndrOrderBy = exports.IAdoType = void 0;
+var IAdoType;
+(function (IAdoType) {
+    IAdoType["ADDRESSLIST"] = "AddressList";
+    IAdoType["ADO"] = "Ado";
+    IAdoType["APP"] = "App";
+    IAdoType["AUCTION"] = "Auction";
+    IAdoType["CW20"] = "CW20";
+    IAdoType["CW20EXCHANGE"] = "CW20Exchange";
+    IAdoType["CW20STAKING"] = "CW20Staking";
+    IAdoType["CW721"] = "CW721";
+    IAdoType["CW721BIDS"] = "CW721Bids";
+    IAdoType["CW721TIMELOCK"] = "CW721Timelock";
+    IAdoType["CROWDFUND"] = "Crowdfund";
+    IAdoType["FACTORY"] = "Factory";
+    IAdoType["GUMBALL"] = "Gumball";
+    IAdoType["LOCKDROP"] = "Lockdrop";
+    IAdoType["MARKETPLACE"] = "Marketplace";
+    IAdoType["MERKLEAIRDROP"] = "MerkleAirdrop";
+    IAdoType["NFTSTAKING"] = "NftStaking";
+    IAdoType["PRIMITIVE"] = "Primitive";
+    IAdoType["RATELIMITINGWITHDRAWALS"] = "RateLimitingWithdrawals";
+    IAdoType["RATES"] = "Rates";
+    IAdoType["RECEIPT"] = "Receipt";
+    IAdoType["SPLITTER"] = "Splitter";
+    IAdoType["TIMELOCK"] = "Timelock";
+    IAdoType["UNKNOWN"] = "Unknown";
+    IAdoType["VAULT"] = "Vault";
+    IAdoType["VESTING"] = "Vesting";
+    IAdoType["WEIGHTEDDISTRIBUTIONSPLITTER"] = "WeightedDistributionSplitter";
+    IAdoType["WEIGHTEDSPLITTER"] = "WeightedSplitter";
+    IAdoType["WRAPPEDCW721"] = "WrappedCW721";
+})(IAdoType || (exports.IAdoType = IAdoType = {}));
+var IAndrOrderBy;
+(function (IAndrOrderBy) {
+    IAndrOrderBy["ASC"] = "Asc";
+    IAndrOrderBy["DESC"] = "Desc";
+})(IAndrOrderBy || (exports.IAndrOrderBy = IAndrOrderBy = {}));
+var IAndrStrategyType;
+(function (IAndrStrategyType) {
+    IAndrStrategyType["ANCHOR"] = "Anchor";
+})(IAndrStrategyType || (exports.IAndrStrategyType = IAndrStrategyType = {}));
