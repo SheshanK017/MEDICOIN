@@ -13,6 +13,9 @@ Powered by Next.js, MEDICOIN revolutionizes healthcare funding by enabling stake
 - **<span style="color:#4CAF50">Collaborative Hub:</span>**
   - Fostering partnerships between researchers, healthcare providers, investors, and patients.
 
+- **<span style="color:#4CAF50">CW20 Token Utility</span>**
+  -Users can utilize their CW20 tokens within the platform ecosystem.They may choose to hold onto the tokens as investments or use them to participate in voting, governance, or future project funding rounds.
+
 ## Presentation Link: 
 - <span style="color:#4CAF50">[Presentation](https://docs.google.com/presentation/d/1KrOe976l6TDegZA_NXdTufaQplY4ZieM/edit?usp=sharing&ouid=105514608141125646783&rtpof=true&sd=true)</span>
 
