@@ -1,12 +1,10 @@
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
-const Home = () => {
 
-  const router=useRouter();
-  const handle=()=>{
-    router.push("/ddd/Campaign");
-  }
+const page = () => {
+
+ 
+  
   return (
     <>
          <div className="relative">
@@ -46,8 +44,7 @@ const Home = () => {
 
   )
 }
-
-export default Home
+export default page
 
 
  {/* <div style={{height:"200px" ,width:"200px"}}>

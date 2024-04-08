@@ -1,9 +1,12 @@
 "use client";
-import Register from "./Componentts/Register";
+import Home from "./Componentts/Home";
 const page = () => {
   return (
     <>
-    <Register/>
+
+<Home/>
+   
+
     </>
    
 
